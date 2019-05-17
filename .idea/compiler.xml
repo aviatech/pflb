@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="kangaroo" />
         <module name="time-conversion" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="kangaroo" target="1.5" />
       <module name="time-conversion" target="1.5" />
     </bytecodeTargetLevel>
   </component>
